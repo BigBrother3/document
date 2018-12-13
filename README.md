@@ -4,7 +4,15 @@
 ## 前后端安装说明
 1. 前端使用Vue框架搭建
 ``` bash
+# 安装Vue命令行工具
+npm install --global vue-cli
+
+# 安装一个新项目（此步骤省略）
+npm install -g @vue/cli-init
+vue init webpack my-project
+
 # 安装依赖
+cd 项目所在的文件夹（如：swapi/）
 npm install
 
 # 服务以热重载的方式运行在 localhost:8000
